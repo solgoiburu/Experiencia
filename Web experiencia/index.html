@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experiencia Pinta?</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="intro-screen">
+    <video autoplay muted playsinline class="intro-video">
+  <source src="PINTA.IMMERISVE/Video_inicio_pinta.mp4" type="video/mp4" />
+  Tu navegador no soporta video HTML5.
+</video>
+        <div id="enterWrapper">
+      <p class="enter-text">[ENTER]</p>
+    </div>
+
+    <div class="code-box hidden" id="codeBox">
+      <input type="text" id="codeInput" placeholder="Enter code" />
+      <p id="errorMsg"></p>
+    </div>
+  </div>
+
+  <div id="main-content" style="display:none;">
+    <h2>Bienvenida a la experiencia</h2>
+  </div>
+
+  <div id="cursor-dot"></div>
+
+  <script src="codigo_acceso.js"></script>
+</body>
+</html>
